@@ -19,7 +19,6 @@ $ git clone https://github.com/jarednthomas/mac-catalina-dynamic
 ```
 
 Fix paths to images in xml file by replacing user path (/home/jared/) with your username. Ex; jared to nathan:
-
 ```sh
 $ sed -i 's/jared/nathan/g' catalina_dynamic.xml
 ```
