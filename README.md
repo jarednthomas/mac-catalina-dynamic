@@ -25,4 +25,5 @@ sed -i 's/jared/your_username/g' catalina_dynamic.xml
 ```
 
 Set background to xml file.
+
 GDM Steps: Tweaks > Appearance > Background > Select XML File
