@@ -1,5 +1,4 @@
 # mac-catalina-dynamic
-Dynamic wallpaper that changes throughout the day.
 
 ### Installation
 Change directory to your Pictures folder.
@@ -7,20 +6,22 @@ Change directory to your Pictures folder.
 $ cd Pictures
 ```
 
-Create a wallpapers directory if it doesn't exist already.
+Create a Wallpapers directory if it doesn't exist already.
 ```sh
-$ mkdir wallpapers
+$ mkdir Wallpapers
 ```
 
-Clone this repo into "wallpapers" (/home/user/Pictures/wallpapers).
+Clone this repo into "Wllpapers" (/home/user/Pictures/Wallpapers).
 ```sh
-$ cd wallpapers
+$ cd Wallpapers
 $ git clone https://github.com/jarednthomas/mac-catalina-dynamic
 ```
 
-Fix paths to images in xml file by replacing my user path (/home/jared/) with your username. Ex; jared to nathan:
+Fix paths to images in xml file by replacing my user path (/home/jared/) with your username.
 ```sh
-$ sed -i 's/jared/nathan/g' catalina_dynamic.xml
+cd mac-catalina-dynamic
+whoami
+$ sed -i 's/jared/your_username/g' catalina_dynamic.xml
 ```
 
 Set background to xml file.
